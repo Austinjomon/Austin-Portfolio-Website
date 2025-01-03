@@ -1,0 +1,389 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+<meta charset="utf-8">
+<title>Portfolio</title>
+<link rel="icon" href="Images/logo.png">
+<link href="style.css" rel="stylesheet" type="text/css">
+    
+</head>
+
+<body>
+<header>
+    
+    <img src="Images/logo.png" alt="" class="logo">
+    
+    <nav class="navbar">
+    <a href="#contact"><button class="dropbtn">Let's Talk</button></a>
+     <div class="dropdown">   
+    <button onClick="myFunction()" href="#" class="dropbtn">Menu</button>
+    <div id="myDropdown" class="dropdown-content">
+    <a href="#" class="dropbtn-a">Home</a>
+    <a href="#about" class="dropbtn-a">About</a>
+    <a href="#services" class="dropbtn-a">Service</a>
+    <a href="#portfolio" class="dropbtn-a">Portfolio</a>
+    <a href="#skills" class="dropbtn-a">Skills</a>
+    <a href="#review">Testimonials</a>   
+    </div>    
+    </div>    
+    </nav>
+
+    <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+    
+</header>
+    
+<section class="hero" id="hero">
+    
+    <div class="row">
+    <div class="col">
+        <h1 class="hero-heading">Austine Jomon</h1>
+
+    </div>
+        
+    </div>
+    
+</section>    
+    
+<section class="about" id="about">
+    
+    <div class="row">
+        
+        <div class="col-left">
+        <h4>Biography</h4>
+        <p>I'm A 20-year-old creative designer from Kerala, specializes in graphic design and photography. Currently pursuing degree in B.A Animation & Graphic Design at St. Joseph College, Changanassery.</p>
+            
+        <h4>Skills</h4> 
+        <p>Graphic Design, UI/UX Design, <br> Photography, Cinematography & Editing </p>
+            
+        <h4>Connect</h4>
+        <a href="https://www.instagram.com/auxtnn_?igsh=MXBvZTZib3poejM3bA=="><img class="sicon" src="Images/Soicial Icons/instagram.png" alt=""></a>
+            
+        <a href="https://x.com/JomonAustin"><img class="sicon" src="Images/Soicial Icons/twitter.png" alt=""></a>
+            
+        <a href="https://www.behance.net/austinjomon"><img class="sicon" src="Images/Soicial Icons/behance.png" alt=""></a>
+            
+        <a href="https://www.linkedin.com/in/austin-jomon-2b32952b3/"><img class="sicon" src="Images/Soicial Icons/linkedin.png" alt=""></a>
+            
+        </div>
+        
+        <div class="col">
+        <img src="Images/DSC00686_round.png" alt="">
+        </div>
+        
+        <div class="col-right">
+        <h4>Projects Done</h4>
+        <h3>32+</h3>
+            
+        <h4>Years of Experience</h4>
+        <h3>4+</h3>
+            
+        <h4>Clients</h4>
+        <h3>87+</h3>    
+        </div>
+        
+    </div>
+    
+</section>
+    
+<section class="services" id="services">
+    
+    <div class="row">
+    
+        <div class="sec-title-col">
+        <h4 class="sec-stitle">SERVICES</h4>
+        <h1 class="sec-title">What <span class="grad">I Do</span></h1>
+        </div>
+        
+        <div class="service-col">
+        <div class="service-box">
+            <div class="service-order">
+                <h2>01/</h2>
+            </div>
+            <div class="service-title">
+                <h2>Graphic Design</h2>
+            </div>
+            <div class="service-text">
+                <p>I specialize in graphic design, crafting visually striking posters, branding, and content with attention to detail.</p>
+            </div>
+        </div>
+            
+        <div class="service-box">
+            <div class="service-order">
+                <h2>02/</h2>
+            </div>
+            <div class="service-title">
+                <h2>UI/UX Design</h2>
+            </div>
+            <div class="service-text">
+                <p>"I excel in UI/UX design, building intuitive interfaces and creating seamless user experiences.</p>
+            </div>
+        </div>
+            
+        <div class="service-box">
+            <div class="service-order">
+                <h2>03/</h2>
+            </div>
+            <div class="service-title">
+                <h2>Photography</h2>
+            </div>
+            <div class="service-text">
+                <p>I capture the essence of moments through photography, blending creativity with technical expertise.</p>
+            </div>
+        </div>
+            
+        <div class="service-box">
+            <div class="service-order">
+                <h2>04/</h2>
+            </div>
+            <div class="service-title">
+                <h2>Cinematography <br> & Editing</h2>
+            </div>
+            <div class="service-text">
+                <p>I bring stories to life through cinematography and editing, enhancing visuals with dynamic motion graphics.</p>
+            </div>
+        </div>
+            
+        </div> 
+    </div>   
+</section>
+    
+    
+<section class="portfolio" id="portfolio">
+    
+    <div class="portsection-box">
+        <div class="portsec-title-col">
+        <h4 class="sec-stitle">PORTFOLIO</h4>
+        <h1 class="sec-title">My <span class="grad">Works</span></h1>
+        <p>Welcome to my portfolio, showcasing my work in Graphic Design, Photography, UI/UX design, and Video Editing.</p>
+        </div>
+        
+        <div class="portfolio">
+        <div class="port-row">
+        
+        <div class="e-card playing">
+          <div class="image"></div>
+  
+          <div class="wave"></div>
+          <div class="wave"></div>
+          <div class="wave"></div>
+  
+
+          <div class="infotop">
+
+            <a href="GD-Index.html"><img src="Images/Portfolio Icons/GD.png" alt="" class="icon"><br> Graphic Design
+            <br>
+            <div class="name"></div></a>
+          </div>
+        </div>
+            
+        <div class="e-card playing">
+          <div class="image"></div>
+  
+          <div class="wave"></div>
+          <div class="wave"></div>
+          <div class="wave"></div>
+  
+
+          <div class="infotop">
+
+            <a href="UIUX-Index.html"><img src="Images/Portfolio Icons/UIUX.png" alt="" class="icon"><br> UI / UX Design
+            <br>
+            <div class="name"></div></a>
+          </div>
+        </div>
+            
+        <div class="e-card playing">
+          <div class="image"></div>
+  
+          <div class="wave"></div>
+          <div class="wave"></div>
+          <div class="wave"></div>
+  
+
+          <div class="infotop">
+
+            <a href="PTO-Index.html"><img src="Images/Portfolio Icons/PT.png" alt="" class="icon"><br> Photography
+            <br>
+            <div class="name"></div></a>
+          </div>
+        </div>
+            
+        <div class="e-card playing">
+          <div class="image"></div>
+  
+          <div class="wave"></div>
+          <div class="wave"></div>
+          <div class="wave"></div>
+  
+
+          <div class="infotop">
+
+            <a href="CIN-Index.html"><img src="Images/Portfolio Icons/CIN.png" alt="" class="icon"><br> Cinematography<br>
+& Editing
+            <br>
+            <div class="name"></div></a>
+          </div>
+        </div>
+               
+        </div>
+        </div>
+
+    </div>
+    
+</section>  
+    
+<section class="skills" id="skills">
+    <div class="row">
+        
+    <div class="sec-title-col">
+        <h4 class="sec-stitle">SKILLS</h4>
+        <h1 class="sec-title">Skills <span class="grad">I Have</span></h1>
+    </div>
+    
+    </div>
+    
+    <div class="row">
+    <div class="skill-col">
+        
+ <button class="button type80"><img src="Images/Skill Icons/1PS.png"  class="skill-img"alt="">
+  <span class="btn-txt">Adobe Photoshop <br> 80%</span>
+ </button>       
+               
+ <button class="button type90"><img src="Images/Skill Icons/2AI.png"  class="skill-img"alt="">
+  <span class="btn-txt">Adobe Illustrator <br> 90%</span>
+ </button>       
+              
+ <button class="button type60"><img src="Images/Skill Icons/3AE.png"  class="skill-img"alt="">
+  <span class="btn-txt">Adobe After Effects <br> 60%</span>
+ </button>       
+               
+ <button class="button type70"><img src="Images/Skill Icons/4LR.png"  class="skill-img"alt="">
+  <span class="btn-txt">Adobe Lightroom<br>70%</span>
+ </button>       
+                      
+ <button class="button type90"><img src="Images/Skill Icons/5PR.png"  class="skill-img"alt="">
+  <span class="btn-txt">Adobe Premiere Pro<br>90%</span>
+ </button>       
+                             
+ <button class="button type90"><img src="Images/Skill Icons/6Resolve.png"  class="skill-img"alt="">
+  <span class="btn-txt">Adobe Davinci Resolve<br>90%</span>
+ </button>       
+                             
+ <button class="button type50"><img src="Images/Skill Icons/7Figma.png"  class="skill-img"alt="">
+  <span class="btn-txt">Figma<br>50%</span>
+ </button>       
+                             
+ <button class="button type60"><img src="Images/Skill Icons/8Maya.png"  class="skill-img"alt="">
+  <span class="btn-txt">Adobe Autodesk Maya<br>60%</span>
+ </button>       
+        
+        </div>
+    </div>
+   
+</section>
+    
+<section class="review" id="review">
+        
+    <div class="section-box">
+        <div class="revsec-title-col">
+        <h4 class="sec-stitle">TESTIMONIALS</h4>
+        <h1 class="sec-title">Client <span class="grad">Reviews</span></h1>
+        <p>Here’s what people are saying about my work in graphic design, photography, UI/UX design, and video editing.</p>
+        </div>
+    
+        <div class="review-box">
+            <div class="review-avatar">
+            <img src="Images/johndoe.png" alt="">
+            </div>
+            <div class="review-content">
+            <div class="mb-3">
+                <h3 class="rev-h3">John Doe</h3>
+                <h4 class="rev-h4">Creative Director, Luminance Design Studio</h4> 
+            </div>
+                <p class="review-text">"I am thoroughly impressed. Their ability to distill a brand's essence into a clean, effective logo design is outstanding. Each piece demonstrates a keen eye for detail, a deep understanding of visual storytelling, and a mastery of typography and color. I wouldn’t hesitate to recommend Austin to anyone seeking creative and impactful design work."</p>
+            </div>    
+        </div>
+        
+        <div class="review-box" >
+            <div class="review-avatar">
+            <img src="Images/sarahblake.png" alt="">
+            </div>
+            <div class="review-content">
+            <div class="mb-3">
+                <h3 class="rev-h3">Sarah Blake</h3>
+                <h4 class="rev-h4">Creative Director, Vertex Motion Studio</h4> 
+            </div>
+                <p class="review-text">"Working with Austin has been a fantastic experience. Their motion graphics work brings brands to life in a way that feels dynamic and engaging. Each project showcases their technical expertise, creativity, and attention to detail. Whether it’s kinetic typography, stunning visual transitions, or captivating animations, Austin consistently delivers top-notch results. Highly recommended for any team seeking impactful motion design!"</p>
+            </div>    
+        </div>
+        
+        <div class="review-box">
+            <div class="review-avatar">
+            <img src="Images/markreynolds.png" alt="">
+            </div>
+            <div class="review-content">
+            <div class="mb-3">
+                <h3 class="rev-h3">Mark Reynolds</h3>
+                <h4 class="rev-h4">Senior Producer, CineCraft Studios</h4> 
+            </div>
+                <p class="review-text">"I’ve had the opportunity to review Austin's video editing work, and I’m beyond impressed. Their edits flow seamlessly, with an innate sense of timing and storytelling that elevates every project. Austin has a remarkable ability to balance creativity with technical precision, ensuring each video is polished, engaging, and impactful. They are a true asset to any production team."</p>
+            </div>    
+        </div>
+    </div>
+</section>
+    
+<section class="contact" id="contact">
+      <div class="contsec-title-col">
+        <h4 class="sec-stitle">CONTACT</h4>
+        <h1 class="sec-title">Let's<span class="grad">Talk</span></h1>
+      </div>
+    
+    <div class="contact-section">
+        <form class="contact-form" action="#" method="POST">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+            <button class="submit-button" type="submit">Send Message</button>
+        </form>
+    </div>
+    
+</section>
+
+    
+<section>
+	<footer data-aos="fade-up">
+	<p>&copy; 2024 AusPix, All Rights Reserved.</p>	
+	</footer>
+</section>
+  
+
+</body>
+</html>
